@@ -193,7 +193,7 @@ cloudsec-assistant/
 
 ## 📄 License
 
-MIT — free to use, modify, and learn from.
+no need do any of that
 
 ---
 

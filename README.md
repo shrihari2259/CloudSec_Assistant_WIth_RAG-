@@ -200,3 +200,8 @@ no need do any of that
 ## 🙋 About
 
 Built as a hands-on portfolio project to demonstrate practical RAG system design: document ingestion, vector search, LLM orchestration, and domain-constrained generation — using entirely free-tier tools.
+
+
+<img width="1919" height="1079" alt="Screenshot 2026-07-05 180816" src="https://github.com/user-attachments/assets/28e1da8a-6d08-4643-b4e2-4261e6c7f98b" />
+<img width="1919" height="1060" alt="Screenshot 2026-07-05 180048" src="https://github.com/user-attachments/assets/4c974986-5000-43a9-8d57-f3fd2abbd2da" />
+

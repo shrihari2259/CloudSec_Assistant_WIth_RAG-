@@ -6,17 +6,17 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# Set up embeddings (must match what was used in embed.py)
+
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-# Connect to existing Pinecone index
+
 vectorstore = PineconeVectorStore(
     index_name=os.getenv("PINECONE_INDEX"),
     embedding=embeddings
 )
 retriever = vectorstore.as_retriever(search_kwargs={"k": 4})
 
-# Free Gemini LLM
+
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
 
 def is_in_domain(question: str) -> bool:
